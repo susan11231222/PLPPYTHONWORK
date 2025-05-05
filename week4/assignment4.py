@@ -18,7 +18,7 @@ def read_and_modify_file():
         with open(output_filename, 'w') as outfile:
             outfile.write(modified_content)
 
-        print(f"File successfully written to '{output_filename}'")
+        print(f"sFile successfully written to '{output_filename}'")
 
     except FileNotFoundError:
         print(" Error: The file you entered does not exist.")
